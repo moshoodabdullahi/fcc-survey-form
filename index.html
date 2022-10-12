@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Description of Survey Form</p>
+    <form id="survey-form">
+
+
+
+        <label id="name-label">Enter Your Name:<input required id="name" placeholder="name" type="text"></label>
+        <label id="email-label">Enter Your Email:<input required id="email" placeholder="email" type="email"></label>
+        <label id="number-label">Enter Your Number:<input required id="number" placeholder="number" type="number"
+                min="5" max="100"></label>
+        <option></option>
+        <option></option>
+        <input type="radio" name="button" value="value">Male</input>
+        <input type="radio" name="button" value="value">Female</input>
+        <input type="checkbox" value="value">Rural</input>
+        <input type="checkbox" value="value">Urban</input>
+        <textarea>Additional Comments...</textarea>
+        <button id="submit" type="submit">Submit<button>
+                <select id="dropdown">
+                    <option>Personal</option>
+                    <option>Family</option>
+                </select>
+    </form>
+</body>
+
+</html>
