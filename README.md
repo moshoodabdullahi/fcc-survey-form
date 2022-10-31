@@ -2,7 +2,7 @@
 
 > A basic HTML and CSS project to illustrate styling.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./doc-fcc-survey-form.netlify.app_.png)
 
 Additional description about the project and its features.
 
@@ -21,7 +21,7 @@ Additional description about the project and its features.
 - Github Action
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://doc-fcc-survey-form.netlify.app/)
 
 ### Development (Running locally)
 
