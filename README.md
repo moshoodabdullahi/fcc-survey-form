@@ -10,15 +10,19 @@ Additional description about the project and its features.
 
 - HTML5 elements
   - `h1`,
-  - `select`,
-  - `textarea`, `label`, `ìnput`, `span`.
-- CSS elements
-  - `@media`,
+  - `select`, `span`,
+  - `textarea`, `label`, `ìnput`.
+- CSS properties 
+  - CSS Variables for reusable CSS values, 
+  - CSS Media Query for page responsiveness using `@media` rule,
+  - CSS Positioning `fixed`,
+  - CSS Background for page aesthetic using `background-color`, `background-image`.
   - `textarea`, `label`, `form`.
 - Linters
   - [Prettier](https://prettier.io/),
   - [Stylelint](https://stylelint.io/).
-- Github Action
+- GitHub Action
+
 ## Live Demo
 
 [Live Demo Link](https://doc-fcc-survey-form.netlify.app/)
