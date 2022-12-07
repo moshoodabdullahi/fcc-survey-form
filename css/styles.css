@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.4;
@@ -18,7 +18,7 @@ form {
 
 .container {
   width: 100%;
-  margin: 3.125rem auto 0 auto;
+  margin: 3.125rem auto 0;
 }
 
 .header {
@@ -43,6 +43,7 @@ p {
   text-shadow: 1px 1px 1px rgb(0 0 0);
 }
 
+/* stylelint-disable-next-line no-duplicate-selectors */
 form {
   background: var(--color-darkblue-alpha);
   border-radius: 0.25rem;
@@ -51,7 +52,7 @@ form {
 }
 
 .form-group {
-  margin: 0 auto 1.25rem auto;
+  margin: 0 auto 1.25rem;
   padding: 0.25rem;
 }
 
@@ -128,7 +129,7 @@ textarea {
 :root {
   --color-white: #f3f3f3;
   --color-darkblue: #1b1b32;
-  --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+  --color-darkblue-alpha: rgb(27 27 50 / 80%);
   --color-green: #37af65;
 }
 
@@ -141,10 +142,13 @@ body::before {
   width: 100%;
   z-index: -1;
   background: var(--color-darkblue);
-  background-image: linear-gradient(115deg,
-      rgba(58, 58, 158, 0.8),
-      rgba(136, 136, 206, 0.7)),
-    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-image:
+    linear-gradient(
+      115deg,
+      rgb(58 58 158 / 80%),
+      rgb(136 136 206 / 70%)
+    ),
+    url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

@@ -12,8 +12,8 @@ Additional description about the project and its features.
   - `h1`,
   - `select`, `span`,
   - `textarea`, `label`, `ìnput`.
-- CSS properties 
-  - CSS Variables for reusable CSS values, 
+- CSS properties
+  - CSS Variables for reusable CSS values,
   - CSS Media Query for page responsiveness using `@media` rule,
   - CSS Positioning `fixed`,
   - CSS Background for page aesthetic using `background-color`, `background-image`.
