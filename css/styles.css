@@ -14,6 +14,9 @@ body {
 
 form {
   background: var(--color-darkblue-alpha);
+  border-radius: 0.25rem;
+  padding: 2.5rem;
+  margin: 0;
 }
 
 .container {
@@ -41,14 +44,6 @@ p {
   font-style: italic;
   font-weight: 200;
   text-shadow: 1px 1px 1px rgb(0 0 0);
-}
-
-/* stylelint-disable-next-line no-duplicate-selectors */
-form {
-  background: var(--color-darkblue-alpha);
-  border-radius: 0.25rem;
-  padding: 2.5rem;
-  margin: 0;
 }
 
 .form-group {
@@ -141,17 +136,12 @@ body::before {
   height: 100%;
   width: 100%;
   z-index: -1;
-  background: var(--color-darkblue);
-  background-image:
-    linear-gradient(
-      115deg,
-      rgb(58 58 158 / 80%),
-      rgb(136 136 206 / 70%)
-    ),
-    url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background: linear-gradient(
+    115deg,
+    rgb(58 58 158 / 80%),
+    rgb(136 136 206 / 70%)
+  ),
+    url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg"), cover, no-repeat, center;
 }
 
 @media (min-width: 576px) {
