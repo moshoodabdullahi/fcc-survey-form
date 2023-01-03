@@ -136,12 +136,7 @@ body::before {
   height: 100%;
   width: 100%;
   z-index: -1;
-  background: linear-gradient(
-    115deg,
-    rgb(58 58 158 / 80%),
-    rgb(136 136 206 / 70%)
-  ),
-    url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg"), cover, no-repeat, center;
+  background: no-repeat, center/80%, url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
 }
 
 @media (min-width: 576px) {
