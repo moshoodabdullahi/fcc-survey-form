@@ -106,17 +106,17 @@ select {
   line-height: inherit;
 }
 
-.clue {
-  margin-left: 0.25rem;
-  font-size: 0.9rem;
-  color: #e4e4e4;
-}
-
 .input-textarea {
   min-height: 120px;
   width: 100%;
   padding: 0.625rem;
   resize: vertical;
+}
+
+.clue {
+  margin-left: 0.25rem;
+  font-size: 0.9rem;
+  color: #e4e4e4;
 }
 
 textarea {
