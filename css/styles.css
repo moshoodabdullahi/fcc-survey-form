@@ -24,7 +24,14 @@ body::before {
   height: 100%;
   width: 100%;
   z-index: -1;
-  background: no-repeat, center/cover, url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+  background:
+    linear-gradient(
+      115deg,
+      rgb(58 58 158 / 80%),
+      rgb(136  136 206 / 70%)
+    ),
+    var(--color-darkblue) url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg")
+    center/cover no-repeat;
 }
 
 h1,
