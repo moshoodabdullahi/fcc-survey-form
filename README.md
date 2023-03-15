@@ -8,16 +8,14 @@ Additional description about the project and its features.
 
 ## Built With
 
-- HTML5 elements
-  - `h1`,
-  - `select`, `span`,
-  - `textarea`, `label`, `ìnput`.
+- HTML5 form elements
+  - `select`, `form`, `button`,
+  - `textarea`, `label`, `ìnput`, `option`.
 - CSS properties
   - CSS Variables for reusable CSS values,
   - CSS Media Query for page responsiveness using `@media` rule,
   - CSS Positioning `fixed`,
   - CSS Background for page aesthetic using `background-color`, `background-image`.
-  - `textarea`, `label`, `form`.
 - Linters
   - [Prettier](https://prettier.io/),
   - [Stylelint](https://stylelint.io/).
@@ -32,7 +30,7 @@ Additional description about the project and its features.
 - Clone the project
 
 ```bash
-git clone https://github.com/moshoodabdullahi/html-css-template.git
+git clone https://github.com/moshoodabdullahi/fcc-survey-form.git
 ```
 
 - Install Dependencies
